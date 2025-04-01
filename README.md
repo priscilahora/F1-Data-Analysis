@@ -4,7 +4,7 @@ Repositório com análises de dados da Fórmula 1 usando Python e FastF1.
 
 ## 📂 Projetos
 
-### 1. Análise de Degradação de Pneus
+### 1. Análise de degradação de pneus
 **Objetivo**: Comparar a degradação de pneus entre pilotos em uma corrida.  
 **Ferramentas**: Python, FastF1, Pandas, Matplotlib.  
 **Resultados**:  
