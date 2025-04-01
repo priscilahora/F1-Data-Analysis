@@ -12,7 +12,7 @@ Repositório com análises de dados da Fórmula 1 usando Python e FastF1.
 - Isso sugere que a estratégia de conservação de pneus foi equilibrada na corrida.
 
 ### 2. Comparação da aceleração e da velocidade nas retas
-**Objetivo**: Comparar velocidade máxima e aceleração entre Red Bull (Verstappen) e Mercedes (Hamilton) na reta principal do Grand Prix de São Paulo de 2021.
+**Objetivo**: Comparar velocidade máxima e aceleração entre Red Bull (Verstappen) e Mercedes (Hamilton) na reta principal do circuito de Interlagos em 2021.
 <br/>**Ferramentas**: Python, FastF1, Pandas, Matplotlib.<br/>
 **Resultados**:
 - Hamilton atingiu 326.4 km/h vs Verstappen 305.0 km/h (21.4 km/h a mais).
