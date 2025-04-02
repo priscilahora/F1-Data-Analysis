@@ -17,3 +17,9 @@ Repositório com análises de dados da Fórmula 1 usando Python e FastF1.
 **Resultados**:
 - Hamilton atingiu 326.4 km/h vs Verstappen 305.0 km/h (21.4 km/h a mais).
 - Padrão observado: Mercedes demonstrou vantagem clara em retas longas, enquanto a Red Bull pode estar otimizada para curvas.
+
+### 3. Análise da estratégia de Pit Stop da Mercedes
+**Objetivo**: Analisar a estratégia de Pit Stop utilizada pela equipe e calcular tempo médio dos pilotos antes e depois das paradas.
+**Ferramentas:** Python, FastF1, Pandas, Numpy, Matplotlib.
+<br/>**Resultados parciais:**
+- Hamilton tinha 01:18.184min como tempo médio antes do primeiro Pit Stop e 01:17.408min após.
