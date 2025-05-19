@@ -26,17 +26,17 @@ Repositório com análises de dados da Fórmula 1 usando Python e FastF1.
 - Impacto dos pit stops: Cada parada gerou um aumento brusco no tempo de volta. Esse comportamento é esperado, mas o destaque está na queda abrupta nos tempos logo após cada parada, indicando a eficácia do novo composto instalado.
 
 ### 4. Comparativo de Telemetria – VER vs HAM (Volta 1)
-**Objetivo**: Comparar a volta 1 de Verstappen (VER) e Hamilton (HAM) no GP do Brasil de 2021 com base nos gráficos de velocidade e RPM ao longo da distância.
-<br/>**Ferramentas**: Python, FastF1, Pandas, Matplotlib.
+**Objetivo**: Analisar diferenças de desempenho entre VER e HAM ao longo da volta inicial com base em velocidade e rotação do motor.
+<br>**Ferramentas**: Python, FastF1, Pandas, Matplotlib.
 <br/>**Resultados**:
 - Velocidade Máxima:
-VER: atinge cerca de 325 km/h nos trechos finais da reta.
-HAM: atinge cerca de 315 km/h, ficando ~10 km/h abaixo de VER.
+Ambos atingem picos similares (~320–325 km/h), mas HAM alcança a velocidade máxima um pouco antes (~4200 m), com curva de aceleração mais suave.
+ER demora mais para atingir esse pico, indicando aceleração mais progressiva.
 
-- Setores de aceleração:
-Entre os 500 e 1000 metros, VER ganha vantagem com aceleração mais rápida e maior velocidade de topo (ex: ~270 km/h vs ~240 km/h).
-No trecho entre 2500 e 2800 metros, VER também atinge picos mais altos, enquanto HAM sofre quedas mais acentuadas nas frenagens.
+- Setores de vantagem de VER:
+Entre 1000 e 1800 metros, VER mostra velocidades maiores em praticamente todos os trechos (~10–20 km/h acima), especialmente em curvas, o que sugere melhor tração ou confiança em frenagens tardias.
+No setor entre 2500 e 2800 m, VER mantém velocidade mais constante nas mudanças de direção, enquanto HAM sofre quedas bruscas.
 
-- RPM Máximo:
-VER: ultrapassa os 11.500 rpm em vários trechos.
-HAM: em geral, se mantém abaixo de 11.000 rpm, com destaque para os primeiros 500 metros, onde opera abaixo de 6.000 rpm, sugerindo uma largada mais contida.
+- RPM:
+HAM atinge picos de até 13.000 rpm logo no início (~0–300 m), enquanto VER se mantém abaixo de 12.500 rpm por quase toda a volta.
+VER apresenta RPM mais estável após 500 m, o que pode indicar uma pilotagem mais eficiente em trocas de marcha.
