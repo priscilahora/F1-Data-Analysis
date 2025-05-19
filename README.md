@@ -18,7 +18,7 @@ Repositório com análises de dados da Fórmula 1 usando Python e FastF1.
 - Hamilton atingiu 326.4 km/h vs Verstappen 305.0 km/h (21.4 km/h a mais).
 - Padrão observado: Mercedes demonstrou vantagem clara em retas longas, enquanto a Red Bull pode estar otimizada para curvas.
 
-### 3. 1. Análise da Estratégia de Pit Stops
+### 3. Análise da Estratégia de Pit Stops
 **Objetivo**: Avaliar a eficácia da estratégia de pit stops de Lewis Hamilton durante o GP do Brasil de 2021, observando o impacto nos tempos de volta e na consistência entre stints.
 Ferramentas: Python, FastF1, Pandas, Matplotlib.
 **Resultados**:
